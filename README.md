@@ -1,40 +1,28 @@
+<div align="center">
+
 # Лунный Мур 🐈‍⬛
 
-Небольшая интерактивная пиксельная сцена с Ноксом — ночным котом, который моргает, шевелит ушами, машет хвостом и реагирует на внимание.
+### Нокс — мой ночной пиксельный компаньон
 
-## Запуск
+<a href="https://qrino-hope.github.io/Qrino-hope/">
+  <img src="https://raw.githubusercontent.com/Qrino-hope/Qrino-hope/main/preview.png" alt="Пиксельный кот Нокс под луной — нажмите, чтобы открыть живую сцену" width="100%" />
+</a>
 
-Это статичный сайт без зависимостей. Откройте `index.html` в браузере или запустите локальный сервер из корня проекта:
+[![ОТКРЫТЬ ЖИВОГО КОТА](https://img.shields.io/badge/%E2%9C%A6%20%D0%9E%D0%A2%D0%9A%D0%A0%D0%AB%D0%A2%D0%AC%20%D0%96%D0%98%D0%92%D0%9E%D0%93%D0%9E%20%D0%9A%D0%9E%D0%A2%D0%90-FA8DD1?style=for-the-badge&labelColor=19183B)](https://qrino-hope.github.io/Qrino-hope/)
 
-```bash
-python3 -m http.server 8000
-```
+*Нажми на картинку или кнопку: Нокс моргает, машет хвостом и реагирует на тебя.*
 
-После этого перейдите на [http://localhost:8000](http://localhost:8000).
-
-## Управление
-
-- Нажмите на Нокса, чтобы его удивить.
-- Нажмите кнопку «УДИВИТЬ КОТА» для другой реакции.
-- Нажмите `Пробел`, когда страница в фокусе, чтобы запустить магию с клавиатуры.
-
-Анимации автоматически сокращаются, если в системе включено уменьшение движения.
+</div>
 
 ---
 
-## Hi there 👋
+<details>
+<summary>О проекте</summary>
+
+Это интерактивная пиксельная сцена без зависимостей. Полная живая версия будет доступна по кнопке выше после публикации GitHub Pages.
+
+</details>
 
 <!--
 **Qrino-hope/Qrino-hope** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
 -->
