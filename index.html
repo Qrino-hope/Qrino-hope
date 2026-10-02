@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#11112b" />
+    <title>Лунный Мур — пиксельный кот</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="game-shell">
+      <header class="topbar">
+        <a class="brand" href="#scene" aria-label="Лунный Мур — в начало">
+          <span class="brand-mark" aria-hidden="true">✦</span>
+          <span>ЛУННЫЙ МУР</span>
+        </a>
+        <p class="status"><span class="status-dot"></span>Ночная смена</p>
+      </header>
+
+      <section id="scene" class="scene" aria-labelledby="scene-title">
+        <div class="scanlines" aria-hidden="true"></div>
+        <div class="stars" aria-hidden="true"></div>
+        <div class="moon" aria-hidden="true"><span></span><i></i><b></b></div>
+        <div class="skyline" aria-hidden="true"></div>
+        <div class="cloud cloud-one" aria-hidden="true"></div>
+        <div class="cloud cloud-two" aria-hidden="true"></div>
+
+        <div class="intro">
+          <p class="eyebrow">PIXEL COMPANION 01</p>
+          <h1 id="scene-title">Познакомься с<br /><em>Ноксом.</em></h1>
+          <p class="lead">Он охраняет последний кусочек ночи.<br />И очень любит, когда его удивляют.</p>
+        </div>
+
+        <button class="cat-stage" id="catButton" type="button" aria-describedby="catHint">
+          <span class="spark spark-a" aria-hidden="true">✦</span>
+          <span class="spark spark-b" aria-hidden="true">+</span>
+          <span class="spark spark-c" aria-hidden="true">✦</span>
+          <span class="tail" aria-hidden="true"><i></i><b></b></span>
+          <span class="cat" aria-hidden="true">
+            <span class="ear ear-left"><i></i></span>
+            <span class="ear ear-right"><i></i></span>
+            <span class="head">
+              <span class="stripe stripe-one"></span><span class="stripe stripe-two"></span>
+              <span class="eye eye-left"><i></i></span><span class="eye eye-right"><i></i></span>
+              <span class="muzzle"><i></i><b></b></span>
+              <span class="whisker whisker-left"></span><span class="whisker whisker-right"></span>
+            </span>
+            <span class="body"><span class="chest"></span><span class="paw paw-left"></span><span class="paw paw-right"></span></span>
+          </span>
+        </button>
+
+        <div class="message-wrap" aria-live="polite">
+          <p id="catMessage">Нокс наблюдает за луной.</p>
+        </div>
+
+        <div class="ground" aria-hidden="true"><div class="grass"></div></div>
+      </section>
+
+      <section class="control-panel" aria-label="Управление Ноксом">
+        <div>
+          <p class="eyebrow">ПРИЁМ СИГНАЛА</p>
+          <p id="catHint" class="instruction">Нажми на Нокса или используй <kbd>пробел</kbd>, чтобы разбудить магию.</p>
+        </div>
+        <button id="moodButton" class="mood-button" type="button" aria-pressed="false">
+          <span class="button-icon" aria-hidden="true">✦</span>
+          <span id="moodLabel">УДИВИТЬ КОТА</span>
+        </button>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
