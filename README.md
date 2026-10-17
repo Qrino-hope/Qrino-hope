@@ -1,8 +1,10 @@
 <div align="center">
 
-# Qrino-hope 🐈‍⬛
+<img src="https://raw.githubusercontent.com/Qrino-hope/Qrino-hope/main/nox-avatar.png" width="96" alt="Пиксельный аватар Нокса" />
 
-### Нокс — мой ночной пиксельный компаньон
+### ✦ **Q R I N O — H O P E** ✦
+
+*ночной пиксельник · строит сцены, которые моргают*
 
 <img src="https://raw.githubusercontent.com/Qrino-hope/Qrino-hope/main/nox-profile.gif" alt="Анимированный пиксельный кот Нокс под луной" width="100%" />
 
